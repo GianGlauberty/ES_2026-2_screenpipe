@@ -1,5 +1,5 @@
 # 📊 Auditoria de Maturidade em Ecossistemas LLM  
-## Projeto: ScreenPipe
+## Projeto: screenpipe
 
 ---
 
@@ -18,13 +18,13 @@
 
 Este repositório tem como objetivo apresentar uma auditoria de maturidade de um projeto baseado em Modelos de Linguagem (LLMs), utilizando como referência os modelos **CMMI-DEV (v2.0)** e **MPS.BR**.
 
-O projeto analisado foi o ScreenPipe, uma aplicação open source que integra captura de dados de tela com processamento por inteligência artificial.
+O projeto analisado foi o screenpipe, uma aplicação open source que integra captura de dados de tela com processamento por inteligência artificial.
 
 ---
 
 ## 🔎 Sobre o Projeto Analisado
 
-O ScreenPipe é um sistema que permite capturar, processar e analisar informações provenientes da tela do usuário, utilizando técnicas de inteligência artificial e modelos de linguagem.
+É um sistema que permite capturar, processar e analisar informações provenientes da tela do usuário, utilizando técnicas de inteligência artificial e modelos de linguagem.
 
 Sua arquitetura é modular, composta por:
 - Captura de dados
