@@ -71,19 +71,19 @@ A análise foi realizada com base em cinco eixos principais:
 Não foram identificados processos formais de RFC (Request for Comments) no projeto. As propostas de funcionalidades e melhorias são realizadas diretamente por meio de Issues no GitHub, o que caracteriza uma abordagem mais ágil e menos formal na definição de requisitos.
 
 ### Requisito 1 (Correção de falha na gravação de áudio)
-Issue: Relato de erro na gravação de áudio em ambiente macOS (https://github.com/screenpipe/screenpipe/issues/2903)
-Pull Request: Correção implementada no módulo de captura de áudio (https://github.com/screenpipe/screenpipe/pull/2905)
-Código: Alterações realizadas em arquivos relacionados ao sistema de captura de áudio (https://github.com/screenpipe/screenpipe/pull/2905/changes)
+- Issue: Relato de erro na gravação de áudio em ambiente macOS (https://github.com/screenpipe/screenpipe/issues/2903)
+- Pull Request: Correção implementada no módulo de captura de áudio (https://github.com/screenpipe/screenpipe/pull/2905)
+- Código: Alterações realizadas em arquivos relacionados ao sistema de captura de áudio (https://github.com/screenpipe/screenpipe/pull/2905/changes)
 
 ### Requisito 2 (O servidor deixa de reiniciar após detectar uma instância já em execução durante a inicialização)
-Issue:Descrição do bug (https://github.com/screenpipe/screenpipe/issues/2880)
-Pull Request: Explicação da função de correção (https://github.com/screenpipe/screenpipe/pull/2892)
-Código: Alterações na função do arquivo principal relacionados à conexão com o servidor (https://github.com/screenpipe/screenpipe/pull/2892/changes)
+- Issue:Descrição do bug (https://github.com/screenpipe/screenpipe/issues/2880)
+- Pull Request: Explicação da função de correção (https://github.com/screenpipe/screenpipe/pull/2892)
+- Código: Alterações na função do arquivo principal relacionados à conexão com o servidor (https://github.com/screenpipe/screenpipe/pull/2892/changes)
 
-### Requisito 3A aplicação no Windows entra em conflito no executor de loop de eventos “tao”
-Issue: Relatório especificando a origem do erro (https://github.com/screenpipe/screenpipe/issues/2495)
-Pull Request: Explicação da solução para o “crash” (https://github.com/screenpipe/screenpipe/pull/2535)
-Código: Alterações em 2 seções de arquivos direcionadas ao funcionamento no Windows (https://github.com/screenpipe/screenpipe/pull/2535/changes)
+### Requisito 3 (A aplicação no Windows entra em conflito no executor de loop de eventos “tao”)
+- Issue: Relatório especificando a origem do erro (https://github.com/screenpipe/screenpipe/issues/2495)
+- Pull Request: Explicação da solução para o “crash” (https://github.com/screenpipe/screenpipe/pull/2535)
+- Código: Alterações em 2 seções de arquivos direcionadas ao funcionamento no Windows (https://github.com/screenpipe/screenpipe/pull/2535/changes)
 
 Foi possível identificar rastreabilidade parcial entre requisitos e implementação por meio da relação entre Issues, Pull Requests e código. No entanto, essa rastreabilidade não é formalmente documentada, o que pode dificultar a gestão de mudanças.
 ---
