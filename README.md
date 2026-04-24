@@ -74,10 +74,8 @@ A análise foi realizada com base em cinco eixos principais:
 ---
 
 ## Arquitetura (Visão Simplificada)
-Diagrama visual
-![diagrama](diagramas/arq.png)
 
-A arquitetura demonstra separação de responsabilidades e desacoplamento parcial da camada de inteligência artificial.
+[Detalhes na pasta do eixo 3](./diagramas/)
 
 ---
 
