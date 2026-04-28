@@ -70,7 +70,7 @@ A análise foi realizada com base em cinco eixos principais:
 
 [Análise Ciclo de Vida](./Eixo%20I%20-%20Ciclo%20de%20Vida/ciclodevida.md)
 
-[Análise Engenharia de Requisitos](./Eixo%20II%20-%20Engenharia%20de%20Requisitos/reg.md/)
+[Análise Engenharia de Requisitos](./Eixo%20II%20-%20Engenharia%20de%20Requisitos/analise-requisitos.md/)
 
 [Análise Arquitetura e Modelagem](./Eixo%20III%20-%20Arquitetura%20e%20Modelagem/analise-arq.md/)
 
