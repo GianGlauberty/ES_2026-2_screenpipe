@@ -44,7 +44,7 @@ A análise foi realizada com base em cinco eixos principais:
 
 ### 1. Ciclo de Vida (GPR)
 - Análise de releases e issues
-- Identificação de práticas ágeis
+- Gestão de riscos
 
 ### 2. Engenharia de Requisitos (GRE)
 - Rastreamento de requisitos via:
