@@ -5,12 +5,12 @@
 
 ## Equipe
 
-- Gian Glauberty Santos Nascimento – 202300061616
-- Pedro César Figueiredo Carneiro – 202300061732
-- Pedro Miguel Castro França – 202300061741
-- João Marcelo Silva da Conceição – 202300095820
-- Renner do Nascimento Brito – 202300061797
-- Paulo Gabriel de Oliveira Cardoso – 202000047735
+- Gian Glauberty Santos Nascimento – 202300061616 (Eixo III - Arquitetura e Modelagem)
+- Pedro César Figueiredo Carneiro – 202300061732 (Eixo IV - Verificação e Validação)
+- Pedro Miguel Castro França – 202300061741 (Eixo II - Engenharia de Requisitos)
+- João Marcelo Silva da Conceição – 202300095820 (Eixo VI - Estrategia e Plano de Melhoria)
+- Renner do Nascimento Brito – 202300061797 (Eixo V - Qualidade de Software e Conclusão da Auditoria)
+- Paulo Gabriel de Oliveira Cardoso – 202000047735 (Eixo I - Ciclo de Vida)
 
 ---
 
