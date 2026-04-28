@@ -66,16 +66,19 @@ A análise foi realizada com base em cinco eixos principais:
 
 ---
 
-## Rastreabilidade de Requisitos
+## Estrutura do repositório separado por eixos
 
-[Detalhes na pasta do eixo 2](./requisitos/)
+[Análise Ciclo de Vida](./Eixo%20I%20-%20Ciclo%20de%20Vida/ciclodevida.md)
 
+[Análise Engenharia de Requisitos](./Eixo%20II%20-%20Engenharia%20de%20Requisitos/reg.md/)
 
----
+[Análise Arquitetura e Modelagem](./Eixo%20III%20-%20Arquitetura%20e%20Modelagem/analise-arq.md/)
 
-## Arquitetura (Visão Simplificada)
+[Análise Verificação e Validação](./Eixo%20IV%20-%20Verificação%20e%20Validação/analise_v&v.md)
 
-[Detalhes na pasta do eixo 3](./diagramas/)
+[Análise Qualidade](./Eixo%20V%20-%20Qualidade/analise-qualidade.md)
+
+[Estratégia e Plano de Melhoria](./Eixo%20VI%20-%20Plano%20de%20melhoria/analise-plano.md)
 
 ---
 
@@ -86,15 +89,6 @@ A análise foi realizada com base em cinco eixos principais:
 - Arquitetura modular
 - Ausência de validação robusta da IA
 - Falta de processos formais de qualidade
-
----
-
-## Plano de Melhoria
-
-1. Implementar rastreabilidade formal de requisitos  
-2. Adotar mecanismos de validação das respostas da IA  
-
-[Detalhamento](./plano_de_melhoria/)
 
 ---
 
