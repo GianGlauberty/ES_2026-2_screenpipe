@@ -1,6 +1,6 @@
 # Arquitetura e Modelagem (PJR)
 
-**Projeto auditado:** [mediar-ai/screenpipe](https://github.com/mediar-ai/screenpipe)  
+**Projeto auditado:** [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe)  
 **Escopo principal desta auditoria:** Núcleo de captura em Rust (`screenpipe-core`), servidor de dados (`screenpipe-server`) e ecossistema de lógicas de negócio (`pipes/`).
 
 ---
