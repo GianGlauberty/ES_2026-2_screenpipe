@@ -104,49 +104,48 @@ O fluxo entre Core e Pipes é assíncrono, permitindo:
 
 ```mermaid
 classDiagram
-direction TB
+    direction TB
+    
+    class CaptureService {
+        <<Rust Core>>
+        +startCapture() void
+        +getStreamData() DataStream
+    }
 
-class CaptureService {
-    +startCapture()
-    +getStreamData()
-}
+    class ProcessingPipeline {
+        <<TypeScript/Python Pipe>>
+        -llmProvider: ILLMService
+        +processData(data: DataStream) void
+        +setLLMProvider(provider: ILLMService) void
+    }
 
-class ProcessingPipeline {
-    -llmProvider : ILLMService
-    +processData(data)
-    +setLLMProvider(provider)
-}
+    class ILLMService {
+        <<interface>>
+        +generateResponse(prompt: String, context: DataStream) String
+    }
 
-class ILLMService {
-    <<interface>>
-    +generateResponse(prompt, context)
-}
+    class OpenAIAdapter {
+        <<Adapter>>
+        -apiKey: String
+        +generateResponse(prompt: String, context: DataStream) String
+    }
 
-class OpenAIAdapter {
-    -apiKey
-    +generateResponse(prompt, context)
-}
+    class LocalModelAdapter {
+        <<Adapter>>
+        -modelPath: String
+        +generateResponse(prompt: String, context: DataStream) String
+    }
 
-class LocalModelAdapter {
-    -modelPath
-    +generateResponse(prompt, context)
-}
+    class OutputHandler {
+        +exportData(result: String) void
+    }
 
-class OutputHandler {
-    +exportData(result)
-}
+    CaptureService --> ProcessingPipeline : Consome via API local
+    ProcessingPipeline --> OutputHandler : Delega saída
 
-CaptureService --> ProcessingPipeline : fornece dados
-ProcessingPipeline --> OutputHandler : exporta resultado
-
-ProcessingPipeline o--> ILLMService : strategy
-ILLMService <|.. OpenAIAdapter
-ILLMService <|.. LocalModelAdapter
-```
-
-![diagrama](./diagramas/DiagramaUML.png)
-
----
+    ProcessingPipeline o--> ILLMService : Strategy
+    ILLMService <|.. OpenAIAdapter : Implementa
+    ILLMService <|.. LocalModelAdapter : Implementa
 
 ## 6. Relação com CMMI e MPS.BR
 
@@ -174,7 +173,7 @@ Isso proporciona:
 - maior modularidade  
 - facilidade de testes  
 - manutenção simplificada  
-- substituição de provedores sem impacto estrutural  
+- substituição de provedores sem impacto estrutural
 
 Caracteriza, portanto, uma solução aderente às boas práticas de **Projeto e Construção de Software**.
 
@@ -184,7 +183,7 @@ Caracteriza, portanto, uma solução aderente às boas práticas de **Projeto e 
 
 O repositório do Screenpipe encontra-se em desenvolvimento acelerado, podendo sofrer mudanças arquiteturais frequentes.
 
-### Pontos sujeitos a evolução
+### Pontos sujeitos a evolução:
 
 - fronteira entre módulos nativos em **Rust**
 - responsabilidades delegadas ao ecossistema **Node.js**
@@ -199,3 +198,5 @@ Não foram aprofundadas rotinas internas de baixo nível, como:
 - **Voice Activity Detection (VAD)**
 - otimizações nativas de áudio
 - detalhes internos de performance do Core
+
+---
