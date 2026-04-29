@@ -3,6 +3,11 @@
 
 ---
 
+## Vídeo da Auditoria
+ Link do vídeo: [Youtube](https://youtu.be/Dy15eHF_8gY)
+ 
+---
+
 ## Equipe
 
 - Gian Glauberty Santos Nascimento – 202300061616 (Eixo III - Arquitetura e Modelagem)
@@ -89,11 +94,6 @@ A análise foi realizada com base em cinco eixos principais:
 - Arquitetura modular
 - Ausência de validação robusta da IA
 - Falta de processos formais de qualidade
-
----
-
-## Vídeo da Auditoria
- Link do vídeo:  
 
 ---
 
