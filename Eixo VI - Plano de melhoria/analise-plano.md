@@ -40,5 +40,3 @@ O projeto verifica se o código funciona (build/linting), mas não valida se a r
 * **Semana 4:** Atualização do `CONTRIBUTING.md` com as novas regras de qualidade.
 
 ---
-
-Este plano foi desenhado para transformar o seu projeto de um modelo puramente ágil e informal para um nível de **Gestão Controlada**, conforme exigido pelas normas de Engenharia de Software.
